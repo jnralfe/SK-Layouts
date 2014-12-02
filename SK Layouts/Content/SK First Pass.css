@@ -1,0 +1,67 @@
+﻿body {
+}
+
+
+.main-menu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #009ee2;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menu-level1 {
+    color: White;
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+
+.hoverstyle {
+    font-weight: bold;
+}
+
+
+#file-wrapper {
+    width: 1200px;
+    margin: 0px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#map-wrapper {
+    width: 1200px;
+    height: 752px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#map-canvas {
+    width: 800px;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
+    float: left; /* add this */
+    border:1px solid black;
+}
+
+#run-catalogue {
+    width: 390px;
+    height: 746px;
+    margin: 0px;
+    padding: 2px;
+    float: right;
+    border:1px solid black;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.run_icon{
+    height: 1em;
+}
