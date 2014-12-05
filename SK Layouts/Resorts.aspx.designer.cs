@@ -13,22 +13,22 @@ namespace SK_Layouts {
     public partial class Resorts {
         
         /// <summary>
-        /// ddlSectors control.
+        /// lblFilter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSectors;
+        protected global::System.Web.UI.WebControls.Label lblFilter;
         
         /// <summary>
-        /// DropDownDataSource control.
+        /// txtFilter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DropDownDataSource;
+        protected global::System.Web.UI.WebControls.TextBox txtFilter;
         
         /// <summary>
         /// GridView1 control.
